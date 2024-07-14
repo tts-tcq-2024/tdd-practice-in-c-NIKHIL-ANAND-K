@@ -86,7 +86,7 @@ int check_neg(const char *ch)
     int res = 0,i=0;
     while(ch[i] != '\0')
     {
-      res = neg_loop(ch,i)
+      res = neg_loop(ch,i);
       if(res == 0)
       {
           break;
